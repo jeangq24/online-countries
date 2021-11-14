@@ -1,0 +1,257 @@
+#formularioActividad{
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 3px 3px  rgba(255, 255, 255, 0.616);
+    margin: 40px 60px 10px 60px ;
+    background-color: rgba(5, 6, 90, 0.680);
+    border: 9px double rgb(255, 255, 255);
+    animation: mymoveHome 5s infinite;
+}
+
+#paisesAgregados{
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    box-shadow: 0px 0px 3px 3px  rgba(255, 255, 255, 0.616);
+    background-color: rgba(0, 0, 0, 0.680);
+    animation: mymove 5s infinite;
+    margin: 20px 30px 10px 30px;
+    border: 5px double rgb(7, 187, 219);
+    animation: mymoveFormulario 5s infinite;
+}
+
+@keyframes mymoveFormulario {
+    
+    50% {border: 5px double rgb(255, 255, 255)}
+}
+.paisesFormulario{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100px;
+    height: 80px;
+    margin: 10px 10px 10px 10px;
+    text-align: center;
+    border-radius:15px;
+    box-shadow: 0px 0px 3px 3px  rgba(255, 255, 255, 0.616);
+    color:rgb(255, 255, 255);
+    font-family: 'Grechen Fuemen', cursive;
+    -webkit-text-stroke: 1px #ffffff;
+    font-size: 20px;
+}
+
+
+#filtroPaisesFormulario{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:15px;
+}
+#filtroPaisesFormulario:hover{
+    background-image: url("https://www.colmed.mx/alumnos/wp-content/uploads/2020/12/Palomita.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #000000;
+    -webkit-text-stroke: 1px #000000;
+    background-position: 0px -10px;
+}
+.paisesFormulario2{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100px;
+    height: 80px;
+    margin: 10px 10px 10px 10px;
+    text-align: center;
+    border-radius:15px;
+    box-shadow: 0px 0px 3px 3px  rgba(255, 255, 255, 0.616);
+    color:rgb(255, 255, 255);
+    font-family: 'Grechen Fuemen', cursive;
+    -webkit-text-stroke: 1px #ffffff;
+    font-size: 20px;
+}
+
+#filtroPaisesFormulario2{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:15px;
+}
+#filtroPaisesFormulario2:hover{
+    background-image: url("./DELETE.jpg");
+    background-size: cover;
+    background-position: 0px -18px;
+    background-repeat: no-repeat;
+    color: #4e4141;
+    -webkit-text-stroke: 1px #000000;
+}
+.inputFormulario{
+    text-align: center;
+    color: white;
+    background-color: rgba(219, 56, 0, 0.685);
+    border: none;
+    font-family: 'Concert One', cursive;
+    font-size: 17px;
+    border-radius: 25px;
+    padding: 4px 11px;
+    -webkit-text-stroke: 1px #000000;
+    border-bottom: 4px double rgb(255, 255, 255);
+    box-shadow: 0px 0px 3px 3px  rgb(9, 255, 0);
+    margin: 0px 20px 0px 10px;
+}
+
+.inputFormularioError{
+    text-align: center;
+    color: white;
+    background-color: rgba(255, 0, 0, 0.685);
+    border: none;
+    font-family: 'Concert One', cursive;
+    font-size: 17px;
+    border-radius: 25px;
+    padding: 4px 11px;
+    -webkit-text-stroke: 1px #000000;
+    border-bottom: 4px double rgb(255, 255, 255);
+    box-shadow: 0px 0px 3px 3px  rgb(255, 0, 0);
+    margin: 0px 20px 0px 10px;
+}
+.inputFormularioError:hover{
+    background-color: rgba(7, 187, 219, 0.685);
+    box-shadow: 0px 0px 3px 3px  rgb(255, 0, 0);    
+}
+.inputFormulario:hover{
+    background-color: rgba(7, 187, 219, 0.685);
+    box-shadow: 0px 0px 3px 3px  rgb(9, 255, 0);
+}
+
+.selectFormulario{
+    color: white;
+    background-color: rgba(219, 56, 7, 0.685);
+    border: none;
+    font-family: 'Concert One', cursive;
+    font-size: 17px;
+    border-radius: 25px;
+    padding: 4px 11px;
+    -webkit-text-stroke: 1px #000000;
+    border-bottom: 4px double rgb(255, 255, 255);
+    box-shadow: 0px 0px 1px 1px  rgba(255, 255, 255, 0.616);
+}
+.selectFormularioD{
+    color: white;
+    background-color: rgba(78, 78, 78, 0.685);
+    border: none;
+    font-family: 'Concert One', cursive;
+    font-size: 17px;
+    border-radius: 25px;
+    padding: 4px 11px;
+    -webkit-text-stroke: 1px #000000;
+    border-bottom: 4px double rgb(255, 255, 255);
+    box-shadow: 0px 0px 1px 1px  rgba(255, 255, 255, 0.616);
+}
+
+.selectFormulario:hover {
+    background-color: rgba(7, 187, 219, 0.685);
+    box-shadow: 0px 0px 3px 3px  rgb(0, 0, 0);
+}
+
+.optionFormulario{
+    color:rgb(0, 0, 0);
+    font-family: 'Grechen Fuemen', cursive;
+    -webkit-text-stroke: 1px #000000;
+    font-size: 14px;
+}
+
+label{
+    color:rgb(255, 255, 255);
+    font-family: 'Scheherazade New', serif;
+    -webkit-text-stroke: 1px #ffffff;
+    font-size: 17px;
+    margin: 0px 15px 0px 0px;
+}
+
+#nombre{
+    margin: 20px 0px 10px 0px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#dificultad{
+    margin: 10px 0px 10px 0px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#temporada{
+    margin: 10px 0px 10px 0px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#duracion{
+    margin: 10px 0px 10px 0px;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+#agregarPais{
+    margin: 10px 0px 20px 0px;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+#contenedorbtn1formuario{
+    margin: 20px 0px 20px 0px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.pError{
+    color:rgb(255, 0, 0);
+    font-family: 'Scheherazade New', serif;
+    -webkit-text-stroke: 1px #ff0000;
+    font-size: 17px;
+    margin: 0px 15px 0px 0px;
+}
+
+#contenedorPaisesAgregados{
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#contenedorbtn2formulario{
+    margin: 30px 0px 30px 0px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+#contenedorFormulaio{
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+}
+
+.h6pais {
+    font-family: 'Scheherazade New', serif;
+}
